@@ -1,0 +1,10 @@
+/**
+ * UNIPE - Centro Universitario de Joao Pessoa
+ * Ano Letivo: 2018.2
+ * Disciplina: Construção de Compiladores
+ * Professor: Hilario Tomaz Alves de Oliveira
+ */
+
+* Alvaro Philipe Andrade dos Santos
+* Rafael Matheus Pereira de Castro
+
