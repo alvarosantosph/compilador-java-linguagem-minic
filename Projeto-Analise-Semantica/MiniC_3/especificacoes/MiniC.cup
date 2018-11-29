@@ -127,9 +127,9 @@ Comando ::= ABRE_CHAVE ComandosOpt:comandosOpt FECHA_CHAVE {: RESULT = new Todos
 		| PRINTF ABRE_PARENTESES Expressao:exp FECHA_PARENTESES PONTO_VIRGULA {: RESULT = new ComandoPrintf (exp); RESULT.setEntreParenteses( true ); :}
 		| PRINTINT ABRE_PARENTESES Expressao:exp FECHA_PARENTESES PONTO_VIRGULA {: RESULT = new ComandoPrintint (exp); RESULT.setEntreParenteses( true ); :}
 		| PRINTSTR ABRE_PARENTESES Expressao:exp FECHA_PARENTESES PONTO_VIRGULA {: RESULT = new ComandoPrintstr (exp); RESULT.setEntreParenteses( true );:}
-		| IDENTIFICADOR:identificador ATRIBUICAO ExpressaoAtr:expAtr PONTO_VIRGULA {: RESULT = new ComandoExpAtribuicao ( new Identificador(identificador), expAtr); RESULT.setEntreParenteses( false );:}
-		| Tipo:tipo IDENTIFICADOR:identificador DeclIDOpt:DeclaraOpt PONTO_VIRGULA {: RESULT = new ComandoAtribuicao(tipo, new Identificador(identificador), DeclaraOpt); RESULT.setEntreParenteses( false );:}
-		| Tipo:tipo IDENTIFICADOR:identificador ATRIBUICAO ExpressaoAtr:exprAtr DeclIDAtrOpt:DeclIdOpt PONTO_VIRGULA {: RESULT = new ComandoDeclIdentificadores (tipo, new Identificador(identificador), exprAtr, DeclIdOpt); RESULT.setEntreParenteses( false );:};	
+		| IDENTIFICADOR:identificador ATRIBUICAO ExpressaoAtr:expAtr PONTO_VIRGULA {: RESULT = new ComandoExpAtr ( new Identificador(identificador), expAtr); RESULT.setEntreParenteses( false );:}
+		| Tipo:tipo IDENTIFICADOR:identificador DeclIDOpt:DeclaraOpt PONTO_VIRGULA {: RESULT = new ComandoAtr(tipo, new Identificador(identificador), DeclaraOpt); RESULT.setEntreParenteses( false );:}
+		| Tipo:tipo IDENTIFICADOR:identificador ATRIBUICAO ExpressaoAtr:exprAtr DeclIDAtrOpt:DeclIdOpt PONTO_VIRGULA {: RESULT = new ComandoDeclId (tipo, new Identificador(identificador), exprAtr, DeclIdOpt); RESULT.setEntreParenteses( false );:};	
 			  
 DeclIDAtrOpt ::= {: RESULT = null; :} 
 				 | DeclIDAtrs:declaracoesAtr {: RESULT = declaracoesAtr; :}; 

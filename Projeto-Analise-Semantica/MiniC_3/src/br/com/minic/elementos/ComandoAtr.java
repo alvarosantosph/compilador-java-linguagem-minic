@@ -1,6 +1,6 @@
 package br.com.minic.elementos;
 
-public class ComandoAtribuicao implements IComando {
+public class ComandoAtr implements IComando {
 	
 	// Atributos
 	
@@ -10,7 +10,7 @@ public class ComandoAtribuicao implements IComando {
 	
 	// Construtor
 	
-	public ComandoAtribuicao(String tipo, Identificador identificador, IExpressao DeclaraOpt) {
+	public ComandoAtr(String tipo, Identificador identificador, IExpressao DeclaraOpt) {
 		this.setTipo(tipo);
 		this.setIdentificador(identificador);
 		this.setDeclOpt(DeclaraOpt);

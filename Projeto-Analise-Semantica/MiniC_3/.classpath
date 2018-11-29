@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="br/com/minic/analisadorlexico/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/br/com/minic/analisadorlexico"/>
+	<classpathentry kind="lib" path="libs/java-cup-11a.jar"/>
+	<classpathentry kind="lib" path="libs/jflex-1.6.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

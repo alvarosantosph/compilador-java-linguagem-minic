@@ -2,7 +2,7 @@ package br.com.minic.elementos;
 
 import java.util.ArrayList;
 
-public class ComandoDeclIdentificadores implements IComando {
+public class ComandoDeclId implements IComando {
 	
 	// Atributos
 	
@@ -13,7 +13,7 @@ public class ComandoDeclIdentificadores implements IComando {
 	
 	//Construtor
 	
-	public ComandoDeclIdentificadores(String tipo,Identificador id,IExpressao exp,ArrayList<DeclaracaoIDAtr> declOpt) {
+	public ComandoDeclId(String tipo,Identificador id,IExpressao exp,ArrayList<DeclaracaoIDAtr> declOpt) {
 		this.setTipo(tipo);
 		this.setId(id);
 		this.setExp(exp);

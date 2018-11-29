@@ -1,6 +1,6 @@
 package br.com.minic.elementos;
 
-public class ComandoExpAtribuicao implements IComando {
+public class ComandoExpAtr implements IComando {
 	
 	// Atributos
 	
@@ -9,7 +9,7 @@ public class ComandoExpAtribuicao implements IComando {
 	
 	// Construtor
 	
-	public ComandoExpAtribuicao(IExpressao identificador, IExpressao expAtr) {
+	public ComandoExpAtr(IExpressao identificador, IExpressao expAtr) {
 		setIdentificador(identificador);
 		setExpAtr(expAtr);
 	}
