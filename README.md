@@ -1,6 +1,6 @@
 # CONSTRUCAO-DE-COMPILADORES-P6
 
-2018.2 P6 CC - UNIPE
+2018.2 P6 CC - Centro Universitário de João Pessoa - UNIPE
 
 Alvaro Philipe Andrade Dos Santos, 1610015475
 
