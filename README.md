@@ -2,10 +2,12 @@
 
 2018.2 P6 CC - Centro Universitário de João Pessoa - UNIPE
 
-Compilador Léxico
+   Linguagem: MiniC
 
-Compilador Sintático
+-> Compilador Léxico
 
-Compilador Semântico
+-> Compilador Sintático
+ 
+-> Compilador Semântico
 
-Linguagem: MiniC
+
