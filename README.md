@@ -4,14 +4,14 @@
 2018.2 P6 CC - Centro Universitário de João Pessoa - UNIPE
 ```
 
-Plataforma de Desenvolvimento: 
-
-* JAVA
-
 ### Linguagem: MiniC:
 * Compilador Léxico
 * Compilador Sintático
 * Compilador Semântico
+
+Plataforma de Desenvolvimento: 
+
+* JAVA
 
 ### Desenvolvedores:
 * Alvaro Santos:
