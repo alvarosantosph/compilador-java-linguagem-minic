@@ -1,10 +1,8 @@
-# CONSTRUCAO-DE-COMPILADORES-P6
+# DESENVOLVIMENTO DE COMPILADOR PARA A LINGUAGEM MINI C
 
 ```sh
 2018.2 P6 CC - Centro Universitário de João Pessoa - UNIPE
 ```
-
-### Linguagem: MiniC:
 * Compilador Léxico
 * Compilador Sintático
 * Compilador Semântico
