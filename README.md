@@ -7,9 +7,9 @@
 * Compilador Sintático
 * Compilador Semântico
 
-Plataforma de Desenvolvimento: 
-
-* JAVA
+<div align="left">
+	<img src="https://img.shields.io/badge/-Java-royalblue?style=for-the-badge" alt="Java">
+</div>
 
 ### Desenvolvedores:
 * Alvaro Santos:
