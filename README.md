@@ -8,6 +8,8 @@
 	<img src="https://img.shields.io/badge/-Java-royalblue?style=for-the-badge" alt="Java">
 </div>
 
+<br />
+
 * Compilador Léxico
 * Compilador Sintático
 * Compilador Semântico
